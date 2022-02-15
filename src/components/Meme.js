@@ -1,7 +1,8 @@
 import React from "react";
+import memesData from "../memesData";
 
 export default function Meme() {
-  function handleClick() {
+  function getMemeImage() {
     console.log("I was clicked!");
   }
 
@@ -15,7 +16,7 @@ export default function Meme() {
           className="input--textDown"
         />
 
-        <button onClick={handleClick} className="generateMeme--button">
+        <button onClick={getMemeImage} className="generateMeme--button">
           Get a new meme image 🖼️{" "}
         </button>
       </form>
