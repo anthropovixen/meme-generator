@@ -3,7 +3,11 @@ import memesData from "../memesData";
 
 export default function Meme() {
   function getMemeImage() {
-    console.log("I was clicked!");
+    const memesArray = memesData.data.memes
+    const RandomNumber = Math.floor(Math.random() * memesArray.length);
+    const url = memesArray[RandomNumber].url;
+    console.log(url);
+    
   }
 
   return (
@@ -17,7 +21,7 @@ export default function Meme() {
         />
 
         <button onClick={getMemeImage} className="generateMeme--button">
-          Get a new meme image 🖼️{" "}
+          Get a new meme image 🖼️
         </button>
       </form>
     </main>
