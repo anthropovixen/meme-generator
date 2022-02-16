@@ -66,4 +66,5 @@ main {
   letter-spacing: -0.1em;
   color: #ffffff;
   font-family: "Karla", sans-serif;
+  cursor: pointer;
 }
