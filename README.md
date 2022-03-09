@@ -4,7 +4,7 @@ This is a Meme Generator created with React for a course on React skills with Bo
 
 ![Meme Generator Showcase](public/images/meme-generator-showcase.png)
 
-## Feature
+## Features
 
 - Header with logo and name of project and cool color gradient
 - Body with fields to type text on top and bottom of meme image
