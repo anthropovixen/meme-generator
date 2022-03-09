@@ -1,10 +1,15 @@
 # Project 5 - Meme Generator
 
-This is a ...
+This is a Meme Generator created with React for a course on React skills with Bob Ziroll. It is a dynamic interactive page, with a header and a body. Practice with event listeners, state, conditional rendering, forms and side effects.
 
-(Put image of the project here)
+![Meme Generator Showcase](public/images/meme-generator-showcase.png)
 
 ## Feature
+
+- Header with logo and name of project and cool color gradient
+- Body with fields to type text on top and bottom of meme image
+- Button to generate new image for the meme
+- Visualization of image and texts together, the final result
 
 ## Technologies
 
@@ -48,7 +53,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Author
 
-[Tanimara Elias Santos](https://github.com/anthropovixen)
+[Tanimara Elias Santos](https://github.com/tanimaraeliassantos)
 
 ### Version
 
