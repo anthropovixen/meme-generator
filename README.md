@@ -1,4 +1,4 @@
-# Project 5 - Meme Generator
+# Meme Generator
 
 This is a Meme Generator created with React for a course on React skills with Bob Ziroll. It is a dynamic interactive page, with a header and a body. Practice with event listeners, state, conditional rendering, forms and side effects.
 
